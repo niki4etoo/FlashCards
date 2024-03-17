@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import FlashCards from './components/FlashCards'
+import Lists from './components/Lists'
+import About from './components/About'
+import Login from './components/Login'
+import Registration from './components/Registration'
 import './index.css'
 
 import {
@@ -17,7 +21,23 @@ const router = createBrowserRouter([
     {
       path: '/flashcards',
       element: <FlashCards />,
-    }
+    },
+    {
+      path: '/lists',
+      element: <Lists />,
+    },
+    {
+      path: '/about',
+      element: <About />,
+    },
+    {
+      path: '/login',
+      element: <Login />,
+    },
+    {
+      path: '/registration',
+      element: <Registration />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
