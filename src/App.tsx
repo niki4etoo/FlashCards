@@ -8,18 +8,15 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='container'>
         <nav>
           <Link to="/lists">Lists</Link>
           <Link to="/registration">Registration</Link>
           <Link to="/login">Login</Link>
           <Link to="/about">About</Link>
         </nav>
-        <div>
-          Flash cards for learning
-        </div>
-
         <div className='flashcard'>
+          
           <div id='flashcard-header'>
             仕事
           </div>

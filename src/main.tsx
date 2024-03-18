@@ -6,7 +6,6 @@ import Lists from './components/Lists'
 import About from './components/About'
 import Login from './components/Login'
 import Registration from './components/Registration'
-import './index.css'
 
 import {
   createBrowserRouter,
