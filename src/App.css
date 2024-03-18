@@ -29,7 +29,11 @@ nav a {
 
 /* Flashcard styling */
 
-.flashcard {
+.flashcard:hover {
+  cursor: pointer;
+}
+
+.flashcard .flashcard-front {
   padding: 1vh 2vw;
 
   border-left-width: 1vb;
@@ -48,8 +52,23 @@ nav a {
   border-style: solid;
 }
 
-.flashcard:hover {
-  cursor: pointer;
+.flashcard .flashcard-back {
+  padding: 1vh 2vw;
+
+  border-left-width: 1vb;
+  border-left-color: #0c6304;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+
+  border-right-width: 1vb;
+  border-right-color: #0c6304;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+
+  border-top: transparent;
+  border-bottom: transparent;
+
+  border-style: solid;
 }
 
 #flashcard-header {
