@@ -48,3 +48,42 @@ nav {
 nav a {
   padding: 1vw;
 }
+
+/* Flashcard styling */
+
+.flashcard {
+  margin: 5vh;
+
+  padding: 3vh 5vw;
+
+  border-left-width: 1vb;
+  border-left-color: #535bf2;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+
+  border-right-width: 1vb;
+  border-right-color: #535bf2;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+
+  border-top: transparent;
+  border-bottom: transparent;
+
+  border-style: solid;
+}
+
+.flashcard:hover {
+  cursor: pointer;
+}
+
+#flashcard-header {
+  font-size: 2.5em;
+  padding: 3vh 0vh;
+}
+
+#flashcard-description {
+  font-size: 1.25em;
+  padding: 3vh 0vh;
+
+  padding-bottom: 3vw;
+}

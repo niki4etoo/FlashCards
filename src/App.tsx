@@ -1,5 +1,5 @@
 import {
-  Link 
+  Link
 } from 'react-router-dom'
 
 import './App.css'
@@ -15,7 +15,18 @@ function App() {
           <Link to="/login">Login</Link>
           <Link to="/about">About</Link>
         </nav>
-      Flash cards for learning
+        <div>
+          Flash cards for learning
+        </div>
+
+        <div className='flashcard'>
+          <div id='flashcard-header'>
+            仕事
+          </div>
+          <div id='flashcard-description'>
+            し ご と ( shigoto )
+          </div>
+        </div>
       </div>
     </>
   )
