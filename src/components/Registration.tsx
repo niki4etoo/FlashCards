@@ -1,6 +1,10 @@
+import { Back } from './Navigation'
+
 const Registration = () => {
     return (
-        <></>
+        <>
+        <Back />
+        </>
     )
 }
 
