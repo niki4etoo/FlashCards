@@ -11,15 +11,15 @@
   justify-content: center;
 
   flex-direction: column;
+
+  padding: 3vh;
 }
 
 nav {
-  padding: 1vw;
+  top: 5vh;
+  left: 5vw;
 
-  display: flex;
-
-  align-items: center;
-
+  position: absolute;
 }
 
 nav a {
@@ -82,11 +82,11 @@ nav a {
 form {
   display: flex;
   flex-flow: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 form h3 {
-  text-align: end;
+  text-align: center;
   letter-spacing: 0.15em;
 }
 
@@ -98,17 +98,59 @@ form input {
   border: 1px solid black;
 }
 
-form input[type=submit]:hover {
+form input:hover {
   cursor: pointer;
 }
 
-form input[type=submit]:active {
-  background-color: greenyellow;
+form input:active {
+  background-color: lightblue;
 }
 
-.buttons {
-  display: flex;
-  margin: 0px auto;
-  flex-direction: row;
-  justify-content: space-around;
+form input[type="text"]:active {
+  background-color: white;
+}
+
+form input[type="text"] {
+
+  border-top: none;
+  border-bottom: none;
+
+  border-left: 1px solid blue;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+
+  border-right: 1px solid blue;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+
+  outline: none;
+
+  text-align: center;
+}
+
+form textarea {
+  border-top: none;
+  border-bottom: none;
+
+  border-left: 1px solid blue;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+
+  border-right: 1px solid blue;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+
+  text-align: center;
+
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+
+  cursor: pointer;
+
 }

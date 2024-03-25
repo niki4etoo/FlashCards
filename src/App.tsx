@@ -15,7 +15,9 @@ function App() {
           <Link to="/login">Login</Link>
           <Link to="/about">About</Link>
         </nav>
-        <FlashCards />
+        <div className='container'>
+          <FlashCards />
+        </div>
       </div>
     </>
   )
