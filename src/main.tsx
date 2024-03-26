@@ -4,8 +4,6 @@ import App from './App.tsx'
 import FlashCards from './components/FlashCards'
 import Lists from './components/Lists'
 import About from './components/About'
-import Login from './components/Login'
-import Registration from './components/Registration'
 
 import {
   createBrowserRouter,
@@ -28,14 +26,6 @@ const router = createBrowserRouter([
     {
       path: '/about',
       element: <About />,
-    },
-    {
-      path: '/login',
-      element: <Login />,
-    },
-    {
-      path: '/registration',
-      element: <Registration />,
     },
 ]);
 

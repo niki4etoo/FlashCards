@@ -11,8 +11,6 @@ function App() {
       <div className='container'>
         <nav>
           <Link to="/lists">Lists</Link>
-          <Link to="/registration">Registration</Link>
-          <Link to="/login">Login</Link>
           <Link to="/about">About</Link>
         </nav>
         <div className='container'>
